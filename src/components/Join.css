@@ -1,0 +1,93 @@
+ Join.css
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
+  box-sizing: border-box;
+}
+
+.join-container {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.join-container h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.join-container p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.join-form .form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.join-form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.join-form input,
+.join-form select,textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submit-btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #3069d3;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .join-container {
+    padding: 20px;
+  }
+
+  .join-container h1 {
+    font-size: 28px;
+  }
+
+  .join-container p {
+    font-size: 16px;
+  }
+
+  .submit-btn {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+} 
+
+
+
+
